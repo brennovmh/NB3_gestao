@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generated Schema",
+  "type": "object",
+  "properties": {
+    "CONSTANTS": {
+      "type": "object",
+      "properties": {
+        "BIOSAFETY_LEVELS": {
+          "type": "object",
+          "properties": {
+            "NB1": {
+              "type": "string",
+              "examples": [
+                "N\u00edvel de Biosseguran\u00e7a 1"
+              ]
+            },
+            "NB2": {
+              "type": "string",
+              "examples": [
+                "N\u00edvel de Biosseguran\u00e7a 2"
+              ]
+            },
+            "NB3": {
+              "type": "string",
+              "examples": [
+                "N\u00edvel de Biosseguran\u00e7a 3"
+              ]
+            },
+            "NB4": {
+              "type": "string",
+              "examples": [
+                "N\u00edvel de Biosseguran\u00e7a 4"
+              ]
+            }
+          },
+          "additionalProperties": true
+        },
+        "RISK_LEVELS": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "examples": [
+                  "Baixo Risco",
+                  "Alto Risco",
+                  "M\u00e9dio Risco"
+                ]
+              },
+              "value": {
+                "type": "string",
+                "examples": [
+                  "medium",
+                  "high",
+                  "low"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "SAMPLE_STATUS": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "examples": [
+                  "Ativa",
+                  "Descartada",
+                  "Quarentena"
+                ]
+              },
+              "value": {
+                "type": "string",
+                "examples": [
+                  "disposed",
+                  "active",
+                  "quarantine"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "SAMPLE_TYPES": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "STORAGE_LOCATIONS": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "USER_ROLES": {
+          "type": "object",
+          "properties": {
+            "admin": {
+              "type": "string",
+              "examples": [
+                "Administrador"
+              ]
+            },
+            "researcher": {
+              "type": "string",
+              "examples": [
+                "Pesquisador"
+              ]
+            },
+            "technician": {
+              "type": "string",
+              "examples": [
+                "T\u00e9cnico"
+              ]
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
