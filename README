@@ -1,0 +1,36 @@
+# 🧬 NB3 Gestão
+
+Sistema de **gerenciamento de amostras** para laboratórios de **biossegurança nível NB3**.  
+Este projeto busca oferecer uma interface simples, segura e eficiente para **cadastrar, rastrear e controlar** amostras biológicas em freezers/tanques criogênicos, incluindo fluxos de reativação, desativação e inventário.
+
+## 🚀 Funcionalidades atuais
+- 🔑 **Tela de login** com suporte a autenticação em dois fatores (mock).
+- 📊 **Painel de controle** com visão geral de amostras, usuários e equipamentos.
+- 🧾 **Cadastro e busca de amostras**, com rastreabilidade completa (mock).
+- 🧊 **Mapa de freezers/boxes** com alocação visual.
+- 📜 **Fluxos de reativação e desativação de amostras** (formulários simulados).
+- 📑 **Inventário** com geração de relatórios (mock).
+- 👥 **Gestão de usuários** e níveis de acesso (simulado).
+- ⚙️ **Configurações** (política de senha, etiquetas, sensores).
+
+> ⚠️ **Observação:** no momento, o sistema é um **protótipo front-end**. Algumas ações (ex.: envio de e-mails) ainda não possuem backend implementado.
+
+## 🛠️ Tecnologias
+- [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [Lucide Icons](https://lucide.dev/)  
+
+## 💻 Como rodar localmente
+Pré-requisitos: **Node.js 18+**
+
+```bash
+# Clonar o repositório
+git clone https://github.com/brennovmh/NB3_gestao.git
+cd NB3_gestao
+
+# Instalar dependências
+npm install
+
+# Rodar em modo desenvolvimento
+npm run dev
