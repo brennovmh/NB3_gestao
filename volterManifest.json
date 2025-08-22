@@ -1,0 +1,7 @@
+{
+  "resolution": {
+    "width": 1366,
+    "height": 768
+  },
+  "summary": "The system's login now displays \"Admin\" instead of \"Admin Silva\" for the administrator account. Users will see this change when logging in with the admin credentials."
+}

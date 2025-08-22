@@ -1,0 +1,57 @@
+{
+  "bundles": [
+    {
+      "name": "backgrounds",
+      "assets": [
+        {
+          "alias": "loginBackground",
+          "src": "https://volter-production-assets-upload.s3.amazonaws.com/34e88dfd6d6c402fb6675c00691d138e/main/preview/assets/backgrounds/professional-lab-background.jpg",
+          "data": {
+            "height": 1080,
+            "width": 1920
+          }
+        }
+      ]
+    },
+    {
+      "name": "icons",
+      "assets": [
+        {
+          "alias": "biohazard",
+          "src": "https://volter-production-assets-upload.s3.amazonaws.com/34e88dfd6d6c402fb6675c00691d138e/main/preview/assets/icons/biohazard.svg",
+          "data": {
+            "height": 64,
+            "transparent": true,
+            "width": 64
+          }
+        },
+        {
+          "alias": "security",
+          "src": "https://volter-production-assets-upload.s3.amazonaws.com/34e88dfd6d6c402fb6675c00691d138e/main/preview/assets/icons/security.svg",
+          "data": {
+            "height": 64,
+            "transparent": true,
+            "width": 64
+          }
+        }
+      ]
+    },
+    {
+      "name": "sounds",
+      "assets": [
+        {
+          "alias": "alert",
+          "src": "https://volter-production-assets-upload.s3.amazonaws.com/34e88dfd6d6c402fb6675c00691d138e/main/preview/assets/sounds/alert.mp3"
+        },
+        {
+          "alias": "notification",
+          "src": "https://volter-production-assets-upload.s3.amazonaws.com/34e88dfd6d6c402fb6675c00691d138e/main/preview/assets/sounds/notification.mp3"
+        },
+        {
+          "alias": "success",
+          "src": "https://volter-production-assets-upload.s3.amazonaws.com/34e88dfd6d6c402fb6675c00691d138e/main/preview/assets/sounds/success.mp3"
+        }
+      ]
+    }
+  ]
+}
